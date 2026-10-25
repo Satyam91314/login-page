@@ -1,0 +1,129 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    border: border box;
+ }
+ body{
+    background-image: url(background_1.webp);
+    background-size: cover;
+ }
+ /**navbar**/
+ .navbar{
+    height: 80px;
+    width: 100%;
+    /**border:2px solid black;**/
+    display: flex;
+    justify-content: space-evenly;
+    }
+ /**box1**/
+ .logo{
+    height:70px;
+    width: 150px;
+    /**border: 2px solid black;**/
+   display: flex;
+   align-items: center;
+   font-family: cursive;
+    margin: 5px;
+    border-radius: 5px;
+    color:orange;
+ }
+ .border{
+    border: 2px solid transparent;
+ }
+ .border:hover{
+    border: 2px solid white;
+ }
+ /**box2**/
+ .box-2{
+    height: 70px;
+    width: 60%;
+   /** border: 2px solid black;**/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+ }
+ .box-2 a {
+    color: white;
+ }
+ /**box3**/
+ .box-3{
+    height: 70px;
+    width: 250px;
+   /** border:2px solid black;**/
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+ }
+ button{
+    background-color: orange;
+    color: white;
+ }
+ /** main section**/
+ .main{
+    height: 600px;
+    width: 100%;
+    /**border: 2px solid black;**/
+    margin-top: 5px;
+    display: flex;
+    
+}
+/**main text**/
+.main-text{
+    height: 70%;
+    width: 60%;
+    margin: 50px;
+    margin-left:100px ;
+    /**border: 2px solid red;**/
+    
+}
+h2{
+    color: white;
+}
+h1{
+    color:rgb(255, 94, 0);
+}
+p{
+    color: black;
+    font-size: 0.85rem;
+}
+.but{
+    height: 20px;
+    width: 90px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:50px ;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+button{
+    font-size: 1rem;
+    height:20px ;
+    width: 90px;
+    border-radius: 10px;
+}
+/**login**/
+.login{
+    height:200px ;
+    width: 40%;
+    /* border: 2px solid yellow; */
+    margin-top: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.Login-here{
+   height: 100%;
+   width: 100%;
+   background-color: black;
+   margin: 10px;
+   color: white;
+   
+}
